@@ -1,0 +1,707 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+  color: #222;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+  background: #f4f6f9;
+  width: 100%;
+}
+
+/* CABEÇALHO */
+.topbar {
+  min-height: 120px;
+  padding: 20px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #e2e8f0;
+  gap: 20px;
+  background: #ffffff;
+  width: 100%;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #008744; /* Verde principal do SEMADEC */
+}
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.botao-entrar {
+  min-width: 152px;
+  padding: 17px 25px;
+  background: #008744; /* Verde principal */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.botao-entrar:hover {
+  background: #007037; /* Tom de verde mais escuro para hover */
+}
+
+.seletor-evento {
+  padding: 15px 12px;
+  background: #ffffff;
+  color: #222;
+  border: 2px solid #cbd5e1;
+  font-size: 18px;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.botao-menu {
+  background: transparent;
+  color: #008744; /* Verde principal */
+  border: none;
+  font-size: 45px;
+  line-height: 1;
+}
+
+.menu-dropdown {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 50px;
+  width: 190px;
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.menu-dropdown button {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  color: #222;
+  border: none;
+  text-align: left;
+}
+
+.menu-dropdown button:hover {
+  background: #f1f5f9;
+}
+
+/* ABAS COLETIVAS E INDIVIDUAIS */
+.abas-tipo {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin-top: 32px;
+}
+
+.abas-tipo button {
+  padding: 0 0 10px;
+  background: transparent;
+  color: #64748b;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.abas-tipo button.ativo {
+  color: #008744; /* Verde principal */
+  border-bottom: 3px solid #d62d20; /* Vermelho vibrante inspirado na arte */
+}
+
+/* ABAS DAS MODALIDADES */
+.abas-modalidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 24px auto 0;
+  padding: 0 20px;
+}
+
+.abas-modalidades button {
+  position: relative;
+  padding: 8px 0 12px;
+  background: transparent;
+  color: #64748b;
+  border: none;
+  font-size: clamp(17px, 1.9vw, 30px);
+  font-weight: bold;
+}
+
+.abas-modalidades button.selecionada {
+  color: #008744; /* Verde principal */
+}
+
+.abas-modalidades button.selecionada::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #ffa700; /* Amarelo/Laranja vibrante da arte */
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo {
+  margin-top: 96px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.nome-evento {
+  margin-bottom: 15px;
+  color: #d62d20; /* Vermelho vibrante da arte */
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.titulo h2 {
+  color: #475569;
+  font-size: clamp(30px, 3vw, 48px);
+}
+
+.descricao {
+  margin-top: 18px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* CLASSIFICAÇÃO */
+.conteudo {
+  width: calc(100% - 60px);
+  max-width: none;
+  margin: 56px 30px 40px;
+}
+
+.conteudo h3 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  color: #008744; /* Verde principal */
+}
+
+.mensagem-vazia {
+  min-height: 182px;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.trofeu {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.mensagem-vazia h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.mensagem-vazia p {
+  max-width: 480px;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* CONTAINER DA TABELA */
+.tabela-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* TABELA */
+.tabela-jogos {
+  width: 100%;
+  min-width: 750px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* CABEÇALHO */
+.tabela-jogos thead {
+  background: #008744; /* Verde principal */
+}
+
+.tabela-jogos th {
+  padding: 18px 16px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  border-bottom: 1px solid #007037;
+}
+
+/* LINHAS */
+.tabela-jogos td {
+  padding: 17px 16px;
+  color: #334155;
+  font-size: 14px;
+  border-bottom: 1px solid #f1f5f9;
+  white-space: nowrap;
+}
+
+.tabela-jogos tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tabela-jogos tbody tr:hover {
+  background: #f8fafc;
+}
+
+.ganhador {
+  color: #008744; /* Verde principal para destaque de vitórias */
+  font-weight: bold;
+}
+
+.sem-jogos {
+  padding: 35px 20px !important;
+  color: #64748b !important;
+  text-align: center;
+  white-space: normal !important;
+}
+
+.tabela-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+  margin-bottom: 32px;
+
+  background: #ffffff;
+  border: 1px solid #dce5df;
+  border-radius: 12px;
+
+  box-shadow: 0 3px 10px rgba(0, 80, 40, 0.06);
+
+  position: relative;
+}
+
+/* Espaçamento adicional quando existem tabelas consecutivas */
+.tabela-container + .tabela-container {
+  margin-top: 28px;
+}
+
+/* TABELA */
+.tabela-jogos {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+}
+
+/* CABEÇALHO */
+.tabela-jogos thead {
+  background: #008744;
+}
+
+.tabela-jogos th {
+  padding: 18px 20px;
+
+  background: #008744;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+
+  white-space: nowrap;
+  border-bottom: 3px solid #006b35;
+}
+
+/* Mantém os cantos superiores arredondados */
+.tabela-jogos thead th:first-child {
+  border-top-left-radius: 11px;
+}
+
+.tabela-jogos thead th:last-child {
+  border-top-right-radius: 11px;
+}
+
+/* CÉLULAS */
+.tabela-jogos td {
+  padding: 18px 20px;
+
+  color: #334155;
+  font-size: 14px;
+  line-height: 1.5;
+
+  border-bottom: 1px solid #e8eee9;
+
+  white-space: normal;
+  overflow-wrap: anywhere;
+
+  transition: background-color 0.2s ease;
+}
+
+/* LINHAS ALTERNADAS */
+.tabela-jogos tbody tr:nth-child(even) {
+  background: #f7faf8;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+.tabela-jogos tbody tr:hover td {
+  background: #edf7f0;
+}
+
+/* REMOVE A BORDA DA ÚLTIMA LINHA */
+.tabela-jogos tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* DESTAQUE PARA OS VENCEDORES */
+.ganhador {
+  color: #007037;
+  font-weight: 700;
+}
+
+/* MENSAGEM QUANDO NÃO EXISTEM JOGOS OU DADOS */
+.sem-jogos {
+  padding: 32px 20px !important;
+
+  color: #64748b !important;
+  text-align: center;
+
+  white-space: normal !important;
+  line-height: 1.6;
+}
+/* CONTAINER DA PROGRAMAÇÃO */
+.programacao-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  align-items: start;
+  margin-top: 20px;
+}
+
+/* TABELA DE CADA DIA */
+.tabela-programacao {
+  width: 100%;
+  min-width: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+
+  background: #ffffff;
+  border: 1px solid #dce5df;
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 3px 10px rgba(0, 80, 40, 0.06);
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/* CABEÇALHO DO DIA */
+.tabela-programacao .titulo-dia {
+  padding: 16px 10px;
+
+  background: #008744;
+  color: #ffffff;
+
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+
+  border-bottom: 3px solid #006b35;
+}
+
+/* CABEÇALHO DAS COLUNAS */
+.tabela-programacao thead tr:nth-child(2) th {
+  padding: 12px 8px;
+
+  background: #f0f7f2;
+  color: #007037;
+
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+
+  border-bottom: 1px solid #dce5df;
+}
+
+/* CÉLULAS */
+.tabela-programacao td {
+  padding: 12px 8px;
+
+  color: #334155;
+  text-align: center;
+  vertical-align: middle;
+
+  border-bottom: 1px solid #e8eee9;
+
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+
+  transition: background-color 0.2s ease;
+}
+
+/* HORÁRIOS COM DESTAQUE */
+.tabela-programacao tbody td:first-child {
+  color: #007037;
+  font-weight: 700;
+  white-space: nowrap;
+
+  background: #edf7f0;
+
+  border-right: 1px solid #dce5df;
+
+  font-size: 12px;
+  letter-spacing: 0.1px;
+}
+
+/* LINHAS ALTERNADAS */
+.tabela-programacao tbody tr:nth-child(even) td:not(:first-child) {
+  background: #f7faf8;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+.tabela-programacao tbody tr:hover td {
+  background: #edf7f0;
+}
+
+/* MANTÉM O DESTAQUE DOS HORÁRIOS NO HOVER */
+.tabela-programacao tbody tr:hover td:first-child {
+  background: #dcefe2;
+  color: #005c2c;
+}
+
+/* ALMOÇO */
+.tabela-programacao tbody tr.linha-almoco td {
+  background: #fff8d9;
+  color: #755b00;
+  font-weight: 700;
+
+  border-top: 1px solid #f0e3a5;
+  border-bottom: 1px solid #f0e3a5;
+}
+
+/* HORÁRIO DO ALMOÇO */
+.tabela-programacao tbody tr.linha-almoco td:first-child {
+  background: #ffefad;
+  color: #755b00;
+  border-right: 1px solid #f0e3a5;
+}
+
+/* CORES DAS ATIVIDADES */
+.tabela-programacao .cor-azul {
+  color: #3269c8;
+  font-weight: 700;
+}
+
+.tabela-programacao .cor-laranja {
+  color: #c65316;
+  font-weight: 700;
+}
+
+.tabela-programacao .cor-vermelho {
+  color: #d62d20;
+  font-weight: 700;
+}
+
+.tabela-programacao .cor-verde {
+  color: #39802e;
+  font-weight: 700;
+}
+
+.tabela-programacao .cor-roxo {
+  color: #8426a8;
+  font-weight: 700;
+}
+
+.tabela-programacao .cor-dourado {
+  color: #967000;
+  font-weight: 700;
+}
+
+.tabela-programacao .cor-cinza {
+  color: #647b9b;
+  font-weight: 700;
+}
+
+/* ÚLTIMA LINHA */
+.tabela-programacao tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* TELAS MÉDIAS */
+@media (max-width: 1100px) {
+  .programacao-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+/* CELULARES */
+@media (max-width: 650px) {
+  .programacao-container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .tabela-programacao {
+    font-size: 13px;
+  }
+
+  .tabela-programacao .titulo-dia {
+    padding: 14px 8px;
+    font-size: 16px;
+  }
+
+  .tabela-programacao thead tr:nth-child(2) th {
+    padding: 12px 8px;
+    font-size: 12px;
+  }
+
+  .tabela-programacao td {
+    padding: 12px 8px;
+  }
+
+  .tabela-programacao tbody td:first-child {
+    font-size: 12px;
+  }
+}
+
+/* TABELAS EM TELAS PEQUENAS */
+@media (max-width: 600px) {
+  .tabela-container {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+  }
+
+  .tabela-container + .tabela-container {
+    margin-top: 22px;
+  }
+
+  .tabela-jogos {
+    min-width: 500px;
+  }
+
+  .tabela-jogos th {
+    padding: 15px 14px;
+    font-size: 13px;
+  }
+
+  .tabela-jogos td {
+    padding: 15px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tabela-jogos th,
+  .tabela-jogos td {
+    padding: 14px 12px;
+    font-size: 13px;
+  }
+
+  .conteudo {
+    width: calc(100% - 20px);
+    margin: 30px 10px;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 29px;
+  }
+
+  .acoes {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .botao-entrar {
+    min-width: 90px;
+    padding: 12px 16px;
+    font-size: 17px;
+  }
+
+  .seletor-evento {
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .abas-modalidades {
+    gap: 12px 18px;
+  }
+
+  .abas-modalidades button {
+    font-size: 17px;
+  }
+
+  .titulo {
+    margin-top: 60px;
+  }
+
+  .conteudo {
+    margin-top: 42px;
+  }
+}
+
+@media (max-width: 430px) {
+  .abas-tipo {
+    gap: 28px;
+  }
+
+  .titulo {
+    margin-top: 45px;
+  }
+
+  .conteudo h3 {
+    font-size: 19px;
+  }
+
+  .mensagem-vazia {
+    padding: 24px 16px;
+  }
+}
