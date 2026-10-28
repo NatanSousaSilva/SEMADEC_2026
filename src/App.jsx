@@ -230,7 +230,7 @@ export default function App() {
                       {tabela_grupos({
                         modalidade,
                         grupos: dados_grupos[modalidade],
-                        colunas: colunas_grupos.Tenis_mesa_masculino || []
+                        colunas: colunas_grupos.Individual || []
                       })}
                     </>
                   ) : modalidade === "Tênis de Mesa Feminino" ? (
@@ -243,7 +243,7 @@ export default function App() {
                     {tabela_grupos({
                       modalidade,
                       grupos: dados_grupos[modalidade],
-                      colunas: colunas_grupos.Tenis_mesa_feminino || []
+                      colunas: colunas_grupos.Individual || []
                     })}
                     </>
                   ) : (

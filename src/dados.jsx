@@ -194,7 +194,7 @@ export const competidores_arremesso_peso = [{
   ]
 }];
 
-export const competidores_arremesso_vara = [{
+export const competidores_lancamento_dardo = [{
   turmas: [
   {codigo: "C1", competidor: "Débora Laíssa de Araújo Souza", turma: "4º MIN VESP"},
   {codigo: "C1", competidor: "Anclerson Ruan Souza Araujo", turma: "4º MIN VESP"},
@@ -285,25 +285,30 @@ export const gincanas = [
 ];
 
 export const classificacao_geral = [
-  {posicao: 1, turma: "Informática 1A", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
-  {posicao: 2, turma: "Mineração 2A", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
-  {posicao: 3, turma: "Mineração 1A", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0}
+  {posicao: 1, turma: "1º Informática Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 2, turma: "1º Informática Vespertino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 3, turma: "2º Informática Matutino (1)", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 4, turma: "2º Informática Matutino (2)", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 5, turma: "3º Informática Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 6, turma: "3º Informática Vespertino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 7, turma: "4º Informática Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 9, turma: "1º Mineração Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 10, turma: "2º Mineração Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 11, turma: "2º Mineração Vespertino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 12, turma: "3º Mineração Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 13, turma: "4º Mineração Vespertino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0},
+  {posicao: 14, turma: "4º Mineração Matutino", pontos_coletivas: 0, pontos_individuais: 0, pontos_gincana: 0}
 ];
 
 export const podio_modalidades = [
-  {modalidade: "Futsal", categoria: "Modalidades Coletivas", primeiro: "3º Ano A", segundo: "2º Ano B", terceiro: "1º Ano A"},
-  {modalidade: "Voleibol", categoria: "Modalidades Coletivas", primeiro: "2º Ano A", segundo: "3º Ano B", terceiro: "1º Ano B"},
-  {modalidade: "Queimada", categoria: "Modalidades Coletivas", primeiro: "1º Ano A", segundo: "2º Ano B", terceiro: "3º Ano A"},
-  {modalidade: "Arremesso de Peso", categoria: "Modalidades Individuais", primeiro: "3º Ano A", segundo: "1º Ano B", terceiro: "2º Ano A"},
-  {modalidade: "Corrida", categoria: "Modalidades Individuais", primeiro: "2º Ano B", segundo: "3º Ano A", terceiro: "1º Ano A"}
 ];
 
 export const dados_modalidades = {
   "Futsal": jogos_futsal,
   "Queimada": jogos_queimada,
   "Basquete": jogos_basquete,
-  "Vôlei de Praia Masculino": jogos_voley_praia_feminino,
-  "Vôlei de Praia Feminino": jogos_voley_praia_masculino,
+  "Vôlei de Praia Masculino": jogos_voley_praia_masculino,
+  "Vôlei de Praia Feminino": jogos_voley_praia_feminino,
   "Futvôlei": jogos_futvoley,
   "Tênis de Mesa Dupla": jogos_tenis_mesa_dupla,
   "Tênis de Mesa Feminino": jogos_tenis_mesa_feminino,
@@ -314,7 +319,7 @@ export const dados_grupos = {
   "Tênis de Mesa Feminino": competidores_tenis_mesa_feminino,
   "Tênis de Mesa Masculino": competidores_tenis_mesa_masculino,
   "Arremesso de Peso": competidores_arremesso_peso,
-  "Arremesso de Vara": competidores_arremesso_vara,
+  "Lançamento de Dardo": competidores_lancamento_dardo,
   "Corrida": competidores_corrida,
   "Xadrez Femino": competidores_xadrez_feminino,
   "Xadrez Masculino": competidores_xadrez_masculino,
