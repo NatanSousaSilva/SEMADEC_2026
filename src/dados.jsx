@@ -1,19 +1,19 @@
 export const jogos_futsal = [
   {id: 1, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "8h50", equipe1: "2º MIN MAT", equipe2: "4º MIN VESP", ganhador: ""},
-  {id: 2, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h20", equipe1: "4 INFO MAT", equipe2: "3º INF MAT", ganhador: ""},
+  {id: 2, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h20", equipe1: "4º INF MAT", equipe2: "3º INF MAT", ganhador: ""},
   {id: 3, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h50", equipe1: "2º INF MAT", equipe2: "1º INF VESP", ganhador: ""},
   {id: 4, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h20", equipe1: "3º MIN MAT", equipe2: "2º MIN VESP", ganhador: ""},
-  {id: 5, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h50", equipe1: "3º INF VESP", equipe2: "1 INF MAT", ganhador: ""},
+  {id: 5, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h50", equipe1: "3º INF VESP", equipe2: "1º INF MAT", ganhador: ""},
   {id: 6, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "8h50", equipe1: "2º MIN MAT", equipe2: "3º INF MAT", ganhador: ""},
-  {id: 7, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h20", equipe1: "4 INFO MAT", equipe2: "1 INF MAT", ganhador: ""},
+  {id: 7, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h20", equipe1: "4º INF MAT", equipe2: "1º INF MAT", ganhador: ""},
   {id: 8, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h50", equipe1: "3º INF VESP", equipe2: "4º MIN VESP", ganhador: ""},
   {id: 9, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "10h20", equipe1: "3º MIN MAT", equipe2: "2º INF MAT", ganhador: ""},
   {id: 10, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "10h50", equipe1: "2º MIN VESP", equipe2: "1º INF VESP", ganhador: ""},
-  {id: 11, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "14h50", equipe1: "4 INFO MAT", equipe2: "4º MIN VESP", ganhador: ""},
+  {id: 11, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "14h50", equipe1: "4º INF MAT", equipe2: "4º MIN VESP", ganhador: ""},
   {id: 12, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "15h30", equipe1: "3º MIN MAT", equipe2: "1º INF VESP", ganhador: ""},
   {id: 13, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "16h", equipe1: "3º INF VESP", equipe2: "3º INF MAT", ganhador: ""},
   {id: 14, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "16h30", equipe1: "2º MIN VESP", equipe2: "2º INF MAT", ganhador: ""},
-  {id: 15, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "17h", equipe1: "2º MIN MAT", equipe2: "1 INF MAT", ganhador: ""},
+  {id: 15, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "17h", equipe1: "2º MIN MAT", equipe2: "1º INF MAT", ganhador: ""},
   {id: 16, grupo: "-", fase: "Semifinal", data: "05/nov", horario: "8h50", equipe1: "1ª Melhor geral", equipe2: "4ª Melhor geral", ganhador: ""},
   {id: 17, grupo: "-", fase: "Semifinal", data: "05/nov", horario: "9h30", equipe1: "2ª Melhor geral", equipe2: "3ª Melhor geral", ganhador: ""},
   {id: 18, grupo: "-", fase: "Disputa 3º", data: "05/nov", horario: "16h30", equipe1: "Perdedor de SF1", equipe2: "Perdedor de SF2", ganhador: ""},
@@ -40,58 +40,57 @@ export const jogos_voley_praia_feminino = [
   {id: 2, fase: "Semifinal_1", data: "03/nov", horario: "17h", equipe1: "Sara'h e Ana Luiza", equipe2: "Ana Letícia e Yanni", ganhador: ""},
   {id: 3, fase: "Semifinal_2", data: "03/nov", horario: "17h20", equipe1: "Bia e Anny", equipe2: "Vencedora das Quartas", ganhador: ""},
   {id: 4, fase: "3º Lugar", data: "03/nov", horario: "18h", equipe1: "Perdedor SF1", equipe2: "Perdedor SF2", ganhador: ""},
-  {id: 5, fase: "Final", data: "03/nov", horario: "16h30", equipe1: "Vencedor SF1", equipe2: "Vencedor SF2", ganhador: ""},
-  {id: 6, fase: "Semifinal", data: "03/nov", horario: "16h21", equipe1: "Leonardo e Daniel", equipe2: "Breno e Joanderson", ganhador: ""}
+  {id: 5, fase: "Final", data: "04/nov", horario: "17h20", equipe1: "Vencedor SF1", equipe2: "Vencedor SF2", ganhador: ""},
 ];
 
 export const jogos_voley_praia_masculino = [
   {id: 1, fase: "Semifinal", data: "03/nov", horario: "16h20", equipe1: "Leonardo e Daniel", equipe2: "Breno e Joanderson", ganhador: ""},
   {id: 2, fase: "Semifinal", data: "03/nov", horario: "16h40", equipe1: "Lucas G e Everton", equipe2: "Kayo e Peruzio", ganhador: ""},
   {id: 3, fase: "3º Lugar", data: "03/nov", horario: "17h40", equipe1: "Perdedor SF1", equipe2: "Perdedor SF2", ganhador: ""},
-  {id: 4, fase: "Final", data: "03/nov", horario: "17h", equipe1: "Vencedor SF1", equipe2: "Vencedor SF2", ganhador: ""}
+  {id: 4, fase: "Final", data: "04/nov", horario: "17h", equipe1: "Vencedor SF1", equipe2: "Vencedor SF2", ganhador: ""}
 ];
 
 export const jogos_futvoley = [
-  {id: 1, fase: "Quartas de Final", data: "04/nov", horario: "16h", equipe1: "Matheus F e Natan", equipe2: "Diego e Gabriel", ganhador: ""},
-  {id: 2, fase: "Semifinal_1", data: "04/nov", horario: "16h20", equipe1: "Bruno e Joandson", equipe2: "Kauan e Lucas G", ganhador: ""},
-  {id: 3, fase: "Semifinal_2", data: "04/nov", horario: "16h40", equipe1: "Lucas S e Renan", equipe2: "Vencedora das Quartas", ganhador: ""},
-  {id: 4, fase: "3º Lugar", data: "04/nov", horario: "17h20", equipe1: "Perdedor SF1", equipe2: "Perdedor SF2", ganhador: ""},
-  {id: 5, fase: "Final", data: "04/nov", horario: "17h40", equipe1: "Vencedor SF1", equipe2: "Vencedor SF2", ganhador: ""}
+  {id: 1, grupo: "-", fase: "Quartas de Final", data: "04/nov", horario: "16h", equipe1: "Matheus F e Natan", equipe2: "Diego e Gabriel F", ganhador: ""},
+  {id: 2, grupo: "-", fase: "Semifinal_1", data: "04/nov", horario: "16h20", equipe1: "Bruno e Joandson", equipe2: "Kauan e Lucas G", ganhador: ""},
+  {id: 3, grupo: "-", fase: "Semifinal_2", data: "04/nov", horario: "16h40", equipe1: "Lucas S e Renan", equipe2: "Vencedora das Quartas", ganhador: ""},
+  {id: 4, grupo: "-", fase: "3º Lugar", data: "04/nov", horario: "17h20", equipe1: "Perdedor SF1", equipe2: "Perdedor SF2", ganhador: ""},
+  {id: 5, grupo: "-", fase: "Final", data: "04/nov", horario: "17h40", equipe1: "Vencedor SF1", equipe2: "Vencedor SF2", ganhador: ""}
 ];
 
 export const jogos_tenis_mesa_dupla = [
   {id: 1, jogo: "S1", fase: "Semifinal", equipe1: "D4", equipe2: "D1", data: "03/11/2026", horario: "14:50", ganhador: ""},
   {id: 2, jogo: "S2", fase: "Semifinal", equipe1: "D3", equipe2: "D2", data: "03/11/2026", horario: "14:50", ganhador: ""},
-  {id: 3, jogo: "3º", fase: "Disputa de 3º lugar", equipe1: "Perdedor S1", equipe2: "Perdedor S2", data: "03/11/2026", horario: "14:50", ganhador: ""},
-  {id: 4, jogo: "F", fase: "Final", equipe1: "Vencedor S1", equipe2: "Vencedor S2", data: "03/11/2026", horario: "14:50", ganhador: ""}
+  {id: 7, jogo: "3º", fase: "Disputa de 3º lugar", equipe1: "Perdedor S1", equipe2: "Perdedor S2", data: "03/11/2026", horario: "14:50", ganhador: ""},
+  {id: 8, jogo: "F", fase: "Final", equipe1: "Vencedor S1", equipe2: "Vencedor S2", data: "03/11/2026", horario: "14:50", ganhador: ""}
 ];
 
 export const jogos_tenis_mesa_feminino = [
-  {id: 1, jogo: "S1", fase: "Semifinal", competidor1: "C2", competidor2: "C3", data: "03/11/2026", horario: "14:50", ganhador: ""},
-  {id: 2, jogo: "S2", fase: "Semifinal", competidor1: "C4", competidor2: "C1", data: "03/11/2026", horario: "14:50", ganhador: ""},
+  {id: 1, jogo: "S1", fase: "Semifinal", competidor1: "c2", competidor2: "c3", data: "03/11/2026", horario: "14:50", ganhador: ""},
+  {id: 2, jogo: "S2", fase: "Semifinal", competidor1: "c4", competidor2: "c1", data: "03/11/2026", horario: "14:50", ganhador: ""},
   {id: 19, jogo: "3º", fase: "Disputa de 3º lugar", competidor1: "Perdedor S1", competidor2: "Perdedor S2", data: "03/11/2026", horario: "14:50", ganhador: ""},
   {id: 20, jogo: "F", fase: "Final", competidor1: "Vencedor S1", competidor2: "Vencedor S2", data: "03/11/2026", horario: "14:50", ganhador: ""}
 ];
 
 export const jogos_tenis_mesa_masculino = [
-  {id: 1, jogo: "P1", fase: "Repescagem", competidor1: "C14", competidor2: "C8", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 2, jogo: "P2", fase: "Repescagem", competidor1: "C5", competidor2: "C6", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 3, jogo: "O1", fase: "Oitavas de final", competidor1: "C10", competidor2: "C7", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 4, jogo: "O2", fase: "Oitavas de final", competidor1: "C12", competidor2: "C9", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 5, jogo: "O3", fase: "Oitavas de final", competidor1: "C2", competidor2: "C11", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 6, jogo: "O4", fase: "Oitavas de final", competidor1: "C3", competidor2: "C13", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 7, jogo: "O5", fase: "Oitavas de final", competidor1: "C15", competidor2: "C4", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 8, jogo: "O6", fase: "Oitavas de final", competidor1: "C18", competidor2: "C1", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 9, jogo: "O7", fase: "Oitavas de final", competidor1: "V-P1", competidor2: "C17", data: "03/11/2026", horario: "10:30", ganhador: ""},
-  {id: 10, jogo: "O8", fase: "Oitavas de final", competidor1: "V-P2", competidor2: "C16", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 1, jogo: "P1", fase: "Repescagem", competidor1: "c14", competidor2: "c8", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 2, jogo: "P2", fase: "Repescagem", competidor1: "c5", competidor2: "c6", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 3, jogo: "O1", fase: "Oitavas de final", competidor1: "c10", competidor2: "c7", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 4, jogo: "O2", fase: "Oitavas de final", competidor1: "c12", competidor2: "c9", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 5, jogo: "O3", fase: "Oitavas de final", competidor1: "c2", competidor2: "c11", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 6, jogo: "O4", fase: "Oitavas de final", competidor1: "c3", competidor2: "c13", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 7, jogo: "O5", fase: "Oitavas de final", competidor1: "c15", competidor2: "c4", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 8, jogo: "O6", fase: "Oitavas de final", competidor1: "c18", competidor2: "c1", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 9, jogo: "O7", fase: "Oitavas de final", competidor1: "V-P1", competidor2: "c17", data: "03/11/2026", horario: "10:30", ganhador: ""},
+  {id: 10, jogo: "O8", fase: "Oitavas de final", competidor1: "V-P2", competidor2: "c16", data: "03/11/2026", horario: "10:30", ganhador: ""},
   {id: 11, jogo: "Q1", fase: "Quartas de final", competidor1: "Vencedor O1", competidor2: "Vencedor O2", data: "03/11/2026", horario: "10:30", ganhador: ""},
   {id: 12, jogo: "Q2", fase: "Quartas de final", competidor1: "Vencedor O3", competidor2: "Vencedor O4", data: "03/11/2026", horario: "10:30", ganhador: ""},
   {id: 13, jogo: "Q3", fase: "Quartas de final", competidor1: "Vencedor O5", competidor2: "Vencedor O6", data: "03/11/2026", horario: "10:30", ganhador: ""},
   {id: 14, jogo: "Q4", fase: "Quartas de final", competidor1: "Vencedor O7", competidor2: "Vencedor O8", data: "03/11/2026", horario: "10:30", ganhador: ""},
   {id: 15, jogo: "S1", fase: "Semifinal", competidor1: "Vencedor Q1", competidor2: "Vencedor Q2", data: "04/11/2026", horario: "10:30", ganhador: ""},
   {id: 16, jogo: "S2", fase: "Semifinal", competidor1: "Vencedor Q3", competidor2: "Vencedor Q4", data: "04/11/2026", horario: "10:30", ganhador: ""},
-  {id: 19, jogo: "3º", fase: "Disputa de 3º lugar", competidor1: "Perdedor S1", competidor2: "Perdedor S2", data: "04/11/2026", horario: "10:30", ganhador: ""},
-  {id: 20, jogo: "F", fase: "Final", competidor1: "Vencedor S1", competidor2: "Vencedor S2", data: "04/11/2026", horario: "10:30", ganhador: ""}
+  {id: 17, jogo: "3º", fase: "Disputa de 3º lugar", competidor1: "Perdedor S1", competidor2: "Perdedor S2", data: "04/11/2026", horario: "10:30", ganhador: ""},
+  {id: 18, jogo: "F", fase: "Final", competidor1: "Vencedor S1", competidor2: "Vencedor S2", data: "04/11/2026", horario: "10:30", ganhador: ""}
 ];
 
 //////////////
@@ -174,99 +173,100 @@ export const competidores_tenis_mesa_feminino = [{
   ]
 }];
 
+export const competidores_corrida = [{
+  turmas: [
+    {codigo: "c1", competidor: "Jamily alves dos anjos", turma: "1º MIN MAT", sexo: "Feminino"},
+    {codigo: "c1", competidor: "Adryan gabriel da silva", turma: "2º MIN MAT", sexo: "Masculino"},
+    {codigo: "c2", competidor: "Andrey Gabriel de Macêdo", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c3", competidor: "Arthur Guedes dos Santos", turma: "1º MIN MAT", sexo: "Masculino"},
+    {codigo: "c4", competidor: "Douglas Bezerra de Medeiros", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c5", competidor: "Eyven Luan Santos da Silva", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c6", competidor: "Joan Pereira de Azevedo", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c7", competidor: "Joandson Davi Alves de Morais", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c8", competidor: "João Victor Meira de Oliveira", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c9", competidor: "Luiz Gabriel Da Silva", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c10", competidor: "Matheus Fernandes dos Santos", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c11", competidor: "Natan Sousa da Silva", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c12", competidor: "Ramsés Jesus Dantas", turma: "2º INFO MAT (2)", sexo: "Masculino"},
+    {codigo: "c13", competidor: "Ryan Mateus Barros", turma: "1º INFO VESP", sexo: "Masculino"},
+    {codigo: "c14", competidor: "Ycaro deyvisson Araújo", turma: "2º MIN VESP", sexo: "Masculino"}
+  ]
+}];
+
 export const competidores_arremesso_peso = [{
   turmas: [
-  {codigo: "1", competidor: "Débora Laíssa de Araújo Souza", turma: "4º MIN VESP"},
-  {codigo: "C1", competidor: "Anclerson Ruan Souza Araujo", turma: "4º MIN VESP"},
-  {codigo: "C2", competidor: "Bruno Henrique de Oliveira Dantas", turma: "4º MIN VESP"},
-  {codigo: "C3", competidor: "Carlos Eduardo Silva da Nóbrega", turma: "2º MIN VESP"},
-  {codigo: "C4", competidor: "Douglas Bezerra de Medeiros", turma: "3º MIN MAT"},
-  {codigo: "C5", competidor: "Eyven Luan Santos da Silva", turma: "2º INFO MAT (1)"},
-  {codigo: "C6", competidor: "Gabriel Hipólito de Araújo", turma: "3º INFO MAT"},
-  {codigo: "C7", competidor: "Joan Pereira de Azevedo", turma: "3º MIN MAT"},
-  {codigo: "C8", competidor: "Joandson Davi Alves da Cruz", turma: "3º MIN MAT"},
-  {codigo: "C9", competidor: "João Gabriel da Silva Cavalcante", turma: "2º MIN MAT"},
-  {codigo: "C10", competidor: "Kayo Gabriel", turma: "2º MIN MAT"},
-  {codigo: "C11", competidor: "Luiz Gabriel Da Silva", turma: "2º INFO MAT (1)"},
-  {codigo: "C12", competidor: "Matheus Fernandes dos Santos", turma: "4º INFO MAT"},
-  {codigo: "C13", competidor: "Victal Franklin de Oliveira Neto", turma: "4º MIN VESP"},
-  {codigo: "C14", competidor: "Vithor Gabriel de Oliveira", turma: "3º INFO MAT"}
+    {codigo: "1", competidor: "Débora Laíssa de Araújo Souza", turma: "4º MIN VESP", sexo: "Feminino"},
+    {codigo: "c1", competidor: "Anclerson Ruan Souza Araujo", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c2", competidor: "Bruno Henrique de Oliveira", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c3", competidor: "Carlos Eduardo Silva", turma: "2º MIN VESP", sexo: "Masculino"},
+    {codigo: "c4", competidor: "Douglas Bezerra de Medeiros", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c5", competidor: "Eyven Luan Santos da Silva", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c6", competidor: "Gabriel Hipólito de Araújo", turma: "3º INFO MAT", sexo: "Masculino"},
+    {codigo: "c7", competidor: "Joan Pereira de Azevedo", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c8", competidor: "Joandson Davi Alves", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c9", competidor: "João Gabriel da Silva", turma: "2º MIN MAT", sexo: "Masculino"},
+    {codigo: "c10", competidor: "Kayo Gabriel", turma: "2º MIN MAT", sexo: "Masculino"},
+    {codigo: "c11", competidor: "Luiz Gabriel Da Silva", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c12", competidor: "Matheus Fernandes dos Santos", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c13", competidor: "Victal Franklin de Oliveira Neto", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c14", competidor: "Vithor Gabriel de Oliveira", turma: "3º INFO MAT", sexo: "Masculino"}
   ]
 }];
 
 export const competidores_lancamento_dardo = [{
   turmas: [
-  {codigo: "C1", competidor: "Débora Laíssa de Araújo Souza", turma: "4º MIN VESP"},
-  {codigo: "C1", competidor: "Anclerson Ruan Souza Araujo", turma: "4º MIN VESP"},
-  {codigo: "C2", competidor: "Bruno Henrique de Oliveira Dantas", turma: "4º MIN VESP"},
-  {codigo: "C1", competidor: "Douglas Bezerra de Medeiros", turma: "3º MIN MAT"},
-  {codigo: "C4", competidor: "Eyven Luan Santos da Silva", turma: "2º INFO MAT (1)"},
-  {codigo: "C2", competidor: "Gabriel Hipólito de Araújo", turma: "3º INFO MAT"},
-  {codigo: "C3", competidor: "Joan Pereira de Azevedo", turma: "3º MIN MAT"},
-  {codigo: "C3", competidor: "Joandson Davi Alves da Cruz", turma: "3º MIN MAT"},
-  {codigo: "C5", competidor: "João Gabriel da Silva Cavalcante", turma: "2º MIN MAT"},
-  {codigo: "C1", competidor: "Kayo Gabriel", turma: "2º MIN MAT"},
-  {codigo: "C9", competidor: "Luiz Gabriel Da Silva", turma: "2º INFO MAT (1)"},
-  {codigo: "C12", competidor: "Matheus Fernandes dos Santos", turma: "4º INFO MAT"},
-  {codigo: "C2", competidor: "Natan Sousa da Silva", turma: "4º INFO MAT"},
-  {codigo: "C11", competidor: "Victal Franklin de Oliveira Neto", turma: "4º MIN VESP"},
-  {codigo: "C10", competidor: "Vithor Gabriel de Oliveira", turma: "3º INFO MAT"}
+    {codigo: "c1", competidor: "Débora Laíssa de Araújo Souza", turma: "4º MIN VESP", sexo: "Feminino"},
+    {codigo: "c1", competidor: "Anclerson Ruan Souza Araujo", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c2", competidor: "Bruno Henrique de Oliveira", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c3", competidor: "Douglas Bezerra de Medeiros", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c4", competidor: "Eyven Luan Santos da Silva", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c5", competidor: "Gabriel Hipólito de Araújo", turma: "3º INFO MAT", sexo: "Masculino"},
+    {codigo: "c6", competidor: "Joan Pereira de Azevedo", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c7", competidor: "Joandson Davi Alves de Morais", turma: "3º MIN MAT", sexo: "Masculino"},
+    {codigo: "c8", competidor: "João Gabriel da Silva Cavalcante", turma: "2º MIN MAT", sexo: "Masculino"},
+    {codigo: "c9", competidor: "Kayo Gabriel", turma: "2º MIN MAT", sexo: "Masculino"},
+    {codigo: "c10", competidor: "Luiz Gabriel Da Silva", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c11", competidor: "Matheus Fernandes dos Santos", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c12", competidor: "Natan Sousa da Silva", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c13", competidor: "Victal Franklin de Oliveira Neto", turma: "4º MIN VESP", sexo: "Masculino"},
+    {codigo: "c14", competidor: "Vithor Gabriel de Oliveira", turma: "3º INFO MAT", sexo: "Masculino"}
   ]
 }];
 
-export const competidores_corrida = [{
+
+export const competidores_xadrez_feminino = [{
   turmas: [
-  {codigo: "C1", competidor: "Jamily alves dos anjos", turma: "1º MIN MAT"},
-  {codigo: "C1", competidor: "Adryan gabriel da silva medeiros", turma: "2º MIN MAT"},
-  {codigo: "C2", competidor: "Andrey Gabriel de Macêdo Silva", turma: "4º MIN VESP"},
-  {codigo: "C3", competidor: "Arthur Guedes dos Santos", turma: "1º MIN MAT"},
-  {codigo: "C4", competidor: "Douglas Bezerra de Medeiros", turma: "3º MIN MAT"},
-  {codigo: "C5", competidor: "Eyven Luan Santos da Silva", turma: "2º INFO MAT (1)"},
-  {codigo: "C6", competidor: "Joan Pereira de Azevedo", turma: "3º MIN MAT"},
-  {codigo: "C7", competidor: "Joandson Davi Alves da Cruz", turma: "3º MIN MAT"},
-  {codigo: "C8", competidor: "João Victor Meira de Oliveira", turma: "4º MIN VESP"},
-  {codigo: "C9", competidor: "Luiz Gabriel Da Silva", turma: "2º INFO MAT (1)"},
-  {codigo: "C10", competidor: "Matheus Fernandes dos Santos", turma: "4º INFO MAT"},
-  {codigo: "C11", competidor: "Natan Sousa da Silva", turma: "4º INFO MAT"},
-  {codigo: "C12", competidor: "Ramsés Jesus Dantas de Araújo", turma: "2º INFO MAT (2)"},
-  {codigo: "C13", competidor: "Ryan Mateus Barros de Azevedo", turma: "1º INFO VESP"},
-  {codigo: "C14", competidor: "Ycaro deyvisson Araújo oliveira", turma: "2º MIN VESP"}
+    {codigo: "c1", competidor: "Elizabeth dos Santos", turma: "2º MIN VESP", sexo: "Feminino"},
+    {codigo: "c2", competidor: "Lívia", turma: "4º INFO MAT", sexo: "Feminino"},
+    {codigo: "c3", competidor: "Yasmim Vitória Lima dos Santos", turma: "4º INFO MAT", sexo: "Feminino"}
   ]
 }];
 
 export const competidores_xadrez_masculino = [{
   turmas: [
-  {codigo: "c1", competidor: "Adryan gabriel da silva medeiros", turma: "2º MIN MAT"},
-  {codigo: "c2", competidor: "Gabriel Hipólito de Araújo", turma: "3º INFO MAT"},
-  {codigo: "c3", competidor: "Gléhdson Mateus Tavares", turma: "3º INFO MAT"},
-  {codigo: "c4", competidor: "Jorge Emanuel Silva Santos", turma: "2º INFO MAT (1)"},
-  {codigo: "c5", competidor: "Lucas Miguel Macedo Salvino", turma: "3º INFO MAT"},
-  {codigo: "c6", competidor: "Natan Sousa da Silva", turma: "4º INFO MAT"},
-  {codigo: "c7", competidor: "Vinícius dos Santos Souza", turma: "4º INFO MAT"},
-  {codigo: "c8", competidor: "Vithor Gabriel de Oliveira", turma: "3º INFO MAT"},
-  {codigo: "c9", competidor: "Wanderly Wanderson de Souza Medeiros Fernandes", turma: "1º INFO VESP"}
-  ]
-}];
-
-export const competidores_xadrez_feminino = [{
-  turmas: [
-  {codigo: "c1", competidor: "Elizabeth dos Santos", turma: "2º MIN VESP"},
-  {codigo: "c2", competidor: "Lívia", turma: "4º INFO MAT"},
-  {codigo: "c3", competidor: "Yasmim Vitória Lima dos Santos", turma: "4º INFO MAT"}
+    {codigo: "c1", competidor: "Adryan gabriel da silva medeiros", turma: "2º MIN MAT", sexo: "Masculino"},
+    {codigo: "c2", competidor: "Gabriel Hipólito de Araújo", turma: "3º INFO MAT", sexo: "Masculino"},
+    {codigo: "c3", competidor: "Gléhdson Mateus Tavares", turma: "3º INFO MAT", sexo: "Masculino"},
+    {codigo: "c4", competidor: "Jorge Emanuel Silva Santos", turma: "2º INFO MAT (1)", sexo: "Masculino"},
+    {codigo: "c5", competidor: "Lucas Miguel Macedo Salvino", turma: "3º INFO MAT", sexo: "Masculino"},
+    {codigo: "c6", competidor: "Natan Sousa da Silva", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c7", competidor: "Vinícius dos Santos Souza", turma: "4º INFO MAT", sexo: "Masculino"},
+    {codigo: "c8", competidor: "Vithor Gabriel de Oliveira", turma: "3º INFO MAT", sexo: "Masculino"},
+    {codigo: "c9", competidor: "Wanderly Wanderson de Souza Medeiros Fernandes", turma: "1º INFO VESP", sexo: "Masculino"}
   ]
 }];
 
 export const competidores_jiu_jitsu = [{
   turmas: [
-  {codigo: 1, competidor: "Inês Ingrid De Oliveira", turma: "3º INFO MAT", sexo: "Feminino", faixa: "Branca", peso: "54 kg"},
-  {codigo: 2, competidor: "Olivia Paola", turma: "2º MIN VESP", sexo: "Feminino", faixa: "branca s/graus", peso: "60kg"},
-  {codigo: 3, competidor: "Breno Carlos da Silva", turma: "4º MIN MAT", sexo: "Masculino", faixa: "Azul", peso: "75 kg"},
-  {codigo: 4, competidor: "Marcus Vinicius", turma: "4º INFO MAT", sexo: "Masculino", faixa: "Azul", peso: "81 kg"},
-  {codigo: 5, competidor: "Vythor Alexandre Araujo", turma: "1º INFO VESP", sexo: "Masculino", faixa: "Azul", peso: "59 kg"},
-  {codigo: 6, competidor: "Ryan Ponniev", turma: "1º INFO VESP", sexo: "Masculino", faixa: "Azul", peso: "71 kg"},
-  {codigo: 7, competidor: "João Pedro da Silva", turma: "1 INFO MAT", sexo: "Masculino", faixa: "Branca", peso: "65kg"},
-  {codigo: 8, competidor: "Alexandre Victor", turma: "3º MIN MAT", sexo: "Masculino", faixa: "Branca", peso: "70kg"},
-  {codigo: 9, competidor: "Gabriel Hipólito", turma: "3º INFO MAT", sexo: "Masculino", faixa: "Branca", peso: "85kg"}
+    {codigo: 1, competidor: "Inês Ingrid De Oliveira", turma: "3º INFO MAT", sexo: "Feminino", faixa: "Branca", peso: "54 kg"},
+    {codigo: 2, competidor: "Olivia Paola", turma: "2º MIN VESP", sexo: "Feminino", faixa: "branca s/graus", peso: "60kg"},
+    {codigo: 3, competidor: "Breno Carlos da Silva", turma: "4º MIN MAT", sexo: "Masculino", faixa: "Azul", peso: "75 kg"},
+    {codigo: 4, competidor: "Marcus Vinicius", turma: "4º INFO MAT", sexo: "Masculino", faixa: "Azul", peso: "81 kg"},
+    {codigo: 5, competidor: "Vythor Alexandre Araujo", turma: "1º INFO VESP", sexo: "Masculino", faixa: "Azul", peso: "59 kg"},
+    {codigo: 6, competidor: "Ryan Ponniev", turma: "1º INFO VESP", sexo: "Masculino", faixa: "Azul", peso: "71kg"},
+    {codigo: 7, competidor: "João Pedro da Silva", turma: "1º INF MAT", sexo: "Masculino", faixa: "Branca", peso: "65kg"},
+    {codigo: 8, competidor: "Alexandre Victor", turma: "3º MIN MAT", sexo: "Masculino", faixa: "Branca", peso: "70kg"},
+    {codigo: 9, competidor: "Gabriel Hipólito", turma: "3º INFO MAT", sexo: "Masculino", faixa: "Branca", peso: "85kg"}
   ]
 }];
 
