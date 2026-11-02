@@ -89,7 +89,7 @@ export const individuais = [
   "Tênis de Mesa Feminino",
   "Tênis de Mesa Masculino",
   "Arremesso de Peso",
-  "Arremesso de Vara",
+  "Lançamento de Dardo",
   "Corrida",
   "Xadrez Femino",
   "Xadrez Masculino",
