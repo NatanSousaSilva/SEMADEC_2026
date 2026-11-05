@@ -1,23 +1,23 @@
 export const jogos_futsal = [
-  {id: 1, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "8h50", equipe1: "2º MIN MAT", equipe2: "4º MIN VESP", gols1: 1, gols2: 0, ganhador: "2º MIN MAT"},
-  {id: 2, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h20", equipe1: "4 INFO MAT", equipe2: "3º INF MAT", gols1: 1, gols2: 4, ganhador: "3º INF MAT"},
-  {id: 3, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h50", equipe1: "2º INF MAT", equipe2: "1º INF VESP", gols1: 1, gols2: 0, ganhador: "2º INF MAT"},
-  {id: 4, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h20", equipe1: "3º MIN MAT", equipe2: "2º MIN VESP", gols1: 1, gols2: 0, ganhador: "3º MIN MAT"},
-  {id: 5, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h50", equipe1: "3º INF VESP", equipe2: "1 INF MAT", gols1: 3, gols2: 2, ganhador: "3º INF VESP"},
-  {id: 6, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "8h50", equipe1: "2º MIN MAT", equipe2: "3º INF MAT", ganhador: ""},
-  {id: 7, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h20", equipe1: "4º INF MAT", equipe2: "1º INF MAT", ganhador: ""},
-  {id: 8, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h50", equipe1: "3º INF VESP", equipe2: "4º MIN VESP", ganhador: ""},
-  {id: 9, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "10h20", equipe1: "3º MIN MAT", equipe2: "2º INF MAT", ganhador: ""},
-  {id: 10, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "10h50", equipe1: "2º MIN VESP", equipe2: "1º INF VESP", ganhador: ""},
-  {id: 11, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "14h50", equipe1: "4º INF MAT", equipe2: "4º MIN VESP", ganhador: ""},
-  {id: 12, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "15h30", equipe1: "3º MIN MAT", equipe2: "1º INF VESP", ganhador: ""},
-  {id: 13, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "16h", equipe1: "3º INF VESP", equipe2: "3º INF MAT", ganhador: ""},
-  {id: 14, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "16h30", equipe1: "2º MIN VESP", equipe2: "2º INF MAT", ganhador: ""},
-  {id: 15, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "17h", equipe1: "2º MIN MAT", equipe2: "1º INF MAT", ganhador: ""},
-  {id: 16, grupo: "-", fase: "Semifinal", data: "05/nov", horario: "8h50", equipe1: "1ª Melhor geral", equipe2: "4ª Melhor geral", ganhador: ""},
-  {id: 17, grupo: "-", fase: "Semifinal", data: "05/nov", horario: "9h30", equipe1: "2ª Melhor geral", equipe2: "3ª Melhor geral", ganhador: ""},
-  {id: 18, grupo: "-", fase: "Disputa 3º", data: "05/nov", horario: "16h30", equipe1: "Perdedor de SF1", equipe2: "Perdedor de SF2", ganhador: ""},
-  {id: 19, grupo: "-", fase: "Final", data: "05/nov", horario: "17h", equipe1: "Vencedor de SF1", equipe2: "Vencedor de SF2", ganhador: ""}
+  {id: 1, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "8h50", equipe1: "2º MIN MAT", equipe2: "4º MIN VESP", gols1: 1, gols2: 0, ganhador: "2º MIN MAT"}, 
+  {id: 2, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h20", equipe1: "4 INFO MAT", equipe2: "3º INF MAT", gols1: 1, gols2: 4, ganhador: "3º INF MAT"}, 
+  {id: 3, grupo: "A/B", fase: "Classificatória", data: "03/nov", horario: "9h50", equipe1: "2º INF MAT", equipe2: "1º INF VESP", gols1: 1, gols2: 0, ganhador: "2º INF MAT"}, 
+  {id: 4, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h20", equipe1: "3º MIN MAT", equipe2: "2º MIN VESP", gols1: 1, gols2: 0, ganhador: "3º MIN MAT"}, 
+  {id: 5, grupo: "C", fase: "Classificatória", data: "03/nov", horario: "10h50", equipe1: "3º INF VESP", equipe2: "1 INF MAT", gols1: 3, gols2: 2, ganhador: "3º INF VESP"}, 
+  {id: 6, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "8h50", equipe1: "2º MIN MAT", equipe2: "3º INF MAT", gols1: 0, gols2: 2, ganhador: "3º INF MAT"}, 
+  {id: 7, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h20", equipe1: "4 INFO MAT", equipe2: "1 INF MAT", gols1: 1, gols2: 4, ganhador: "1 INF MAT"},
+  {id: 8, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "9h50", equipe1: "3º INF VESP", equipe2: "4º MIN VESP", gols1: 2, gols2: 1, ganhador: "3º INF VESP"},
+  {id: 9, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "10h20", equipe1: "3º MIN MAT", equipe2: "2º INF MAT", gols1: 3, gols2: 0, ganhador: "3º MIN MAT"},
+  {id: 10, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "10h50", equipe1: "2º MIN VESP", equipe2: "1º INF VESP", gols1: 2, gols2: 1, ganhador: "2º MIN VESP"},
+  {id: 11, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "14h50", equipe1: "4 INFO MAT", equipe2: "4º MIN VESP", gols1: 0, gols2: 2, ganhador: "4º MIN VESP"},
+  {id: 12, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "15h30", equipe1: "3º MIN MAT", equipe2: "1º INF VESP", gols1: 0, gols2: 1, ganhador: "1º INF VESP"},
+  {id: 13, grupo: "A/B", fase: "Classificatória", data: "04/nov", horario: "16h", equipe1: "3º INF VESP", equipe2: "3º INF MAT", gols1: 0, gols2: 0, ganhador: "Empate"},
+  {id: 14, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "16h30", equipe1: "2º MIN VESP", equipe2: "2º INF MAT", gols1: 2, gols2: 3, ganhador: "2º INF MAT"}, 
+  {id: 15, grupo: "C", fase: "Classificatória", data: "04/nov", horario: "17h", equipe1: "2º MIN MAT", equipe2: "1 INF MAT", gols1: 3, gols2: 0, ganhador: "2º MIN MAT"}, 
+  {id: 16, grupo: "-", fase: "Semifinal", data: "05/nov", horario: "8h50", equipe1: "3º INF MAT", equipe2: "2º MIN MAT", gols1: null, gols2: null, ganhador: "3º INF MAT"}, 
+  {id: 17, grupo: "-", fase: "Semifinal", data: "05/nov", horario: "9h30", equipe1: "3º INF VESP", equipe2: "3º MIN MAT", gols1: null, gols2: null, ganhador: "3º MIN MAT"},
+  {id: 18, grupo: "-", fase: "Disputa 3º", data: "05/nov", horario: "16h30", equipe1: "Perdedor de SF1", equipe2: "Perdedor de SF2", gols1: null, gols2: null, ganhador: ""}, 
+  {id: 19, grupo: "-", fase: "Final", data: "05/nov", horario: "17h", equipe1: "Vencedor de SF1", equipe2: "Vencedor de SF2", gols1: null, gols2: null, ganhador: ""} 
 ];
 
 export const jogos_queimada = [
@@ -99,26 +99,26 @@ export const grupos_futsal = [
   {
     grupo: "Grupo A",
     turmas: [
-      {nome: "2º MIN MAT", vitorias: 1, empates: 0, derrotas: 0, gols: 1, gols_sofridos: 0, saldo_gols: 1},
-      {nome: "4 INFO MAT", vitorias: 0, empates: 0, derrotas: 1, gols: 1, gols_sofridos: 4, saldo_gols: -3},
-      {nome: "3º INF VESP", vitorias: 1, empates: 0, derrotas: 0, gols: 3, gols_sofridos: 2, saldo_gols: 1}
+      {nome: "2º MIN MAT", vitorias: 2, empates: 0, derrotas: 1, gols: 4, gols_sofridos: 2, saldo_gols: 2, pontos: 6, ranking: "4ª Melhor geral"}, //[cite: 1]
+      {nome: "4 INFO MAT", vitorias: 0, empates: 0, derrotas: 3, gols: 2, gols_sofridos: 10, saldo_gols: -8, pontos: 0, ranking: ""}, //[cite: 1]
+      {nome: "3º INF VESP", vitorias: 2, empates: 1, derrotas: 0, gols: 5, gols_sofridos: 3, saldo_gols: 2, pontos: 7, ranking: "2ª Melhor geral"} //[cite: 1]
     ]
   },
   {
     grupo: "Grupo B",
     turmas: [
-      {nome: "4º MIN VESP", vitorias: 0, empates: 0, derrotas: 1, gols: 0, gols_sofridos: 1, saldo_gols: -1},
-      {nome: "3º INF MAT", vitorias: 1, empates: 0, derrotas: 0, gols: 4, gols_sofridos: 1, saldo_gols: 3},
-      {nome: "1 INF MAT", vitorias: 0, empates: 0, derrotas: 1, gols: 2, gols_sofridos: 3, saldo_gols: -1}
+      {nome: "4º MIN VESP", vitorias: 1, empates: 0, derrotas: 2, gols: 3, gols_sofridos: 3, saldo_gols: 0, pontos: 3, ranking: ""}, //[cite: 1]
+      {nome: "3º INF MAT", vitorias: 2, empates: 1, derrotas: 0, gols: 6, gols_sofridos: 1, saldo_gols: 5, pontos: 7, ranking: "1ª Melhor geral"},
+      {nome: "1 INF MAT", vitorias: 1, empates: 0, derrotas: 2, gols: 6, gols_sofridos: 7, saldo_gols: -1, pontos: 3, ranking: ""} //[cite: 1]
     ]
   },
   {
     grupo: "Grupo C",
     turmas: [
-      {nome: "3º MIN MAT", vitorias: 1, empates: 0, derrotas: 0, gols: 1, gols_sofridos: 0, saldo_gols: 1},
-      {nome: "2º MIN VESP", vitorias: 0, empates: 0, derrotas: 1, gols: 0, gols_sofridos: 1, saldo_gols: -1},
-      {nome: "2º INF MAT", vitorias: 1, empates: 0, derrotas: 0, gols: 1, gols_sofridos: 0, saldo_gols: 1},
-      {nome: "1º INF VESP", vitorias: 0, empates: 0, derrotas: 1, gols: 0, gols_sofridos: 1, saldo_gols: -1}
+      {nome: "3º MIN MAT", vitorias: 2, empates: 0, derrotas: 1, gols: 4, gols_sofridos: 1, saldo_gols: 3, pontos: 6, ranking: "3ª Melhor geral"}, //[cite: 1]
+      {nome: "2º MIN VESP", vitorias: 1, empates: 0, derrotas: 2, gols: 4, gols_sofridos: 5, saldo_gols: -1, pontos: 3, ranking: ""}, //[cite: 1]
+      {nome: "2º INF MAT", vitorias: 2, empates: 0, derrotas: 1, gols: 4, gols_sofridos: 5, saldo_gols: -1, pontos: 6, ranking: ""}, //[cite: 1]
+      {nome: "1º INF VESP", vitorias: 1, empates: 0, derrotas: 2, gols: 2, gols_sofridos: 3, saldo_gols: -1, pontos: 3, ranking: ""} //[cite: 1]
     ]
   }
 ];
