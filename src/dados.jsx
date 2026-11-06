@@ -285,20 +285,19 @@ export const gincanas = [
 ];
 
 export const classificacao_geral = [
-  {posicao: 1, turma: "1º Informática Matutino", pontos: 30},
-  {posicao: 2, turma: "1º Informática Vespertino", pontos: 67},
-  {posicao: 3, turma: "2º Informática Matutino 🥈", pontos: 251},
-  {posicao: 5, turma: "3º Informática Matutino 🥇", pontos: 324},
-  {posicao: 6, turma: "3º Informática Vespertino", pontos: 40},
-  {posicao: 7, turma: "4º Informática Matutino", pontos: 145},
-  {posicao: 9, turma: "1º Mineração Matutino", pontos: 15},
-  {posicao: 10, turma: "2º Mineração Matutino", pontos: 105},
-  {posicao: 11, turma: "2º Mineração Vespertino", pontos: 135},
-  {posicao: 12, turma: "3º Mineração Matutino", pontos: 145},
-  {posicao: 13, turma: "4º Mineração Vespertino", pontos: 155},
-  {posicao: 14, turma: "4º Mineração Matutino 🥉", pontos: 197}
+  {posicao: 1, turma: "3º Informática Matutino 🥇", pontos: 324},
+  {posicao: 2, turma: "2º Informática Matutino 🥈", pontos: 251},
+  {posicao: 3, turma: "4º Mineração Matutino 🥉", pontos: 197},
+  {posicao: 4, turma: "4º Mineração Vespertino", pontos: 155},
+  {posicao: 5, turma: "4º Informática Matutino", pontos: 145},
+  {posicao: 6, turma: "3º Mineração Matutino", pontos: 145},
+  {posicao: 7, turma: "2º Mineração Vespertino", pontos: 135},
+  {posicao: 8, turma: "2º Mineração Matutino", pontos: 105},
+  {posicao: 9, turma: "1º Informática Vespertino", pontos: 67},
+  {posicao: 10, turma: "3º Informática Vespertino", pontos: 40},
+  {posicao: 11, turma: "1º Informática Matutino", pontos: 30},
+  {posicao: 12, turma: "1º Mineração Matutino", pontos: 15}
 ];
-
 export const podio_modalidades = [
   {
     modalidade: "Futsal",
