@@ -91,7 +91,7 @@ export const individuais = [
   "Arremesso de Peso",
   "Lançamento de Dardo",
   "Corrida",
-  "Xadrez Femino",
+  "Xadrez Feminino",
   "Xadrez Masculino",
   "Jiu-Jitsu",
 ];

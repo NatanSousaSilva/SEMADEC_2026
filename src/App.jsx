@@ -52,27 +52,24 @@ export default function App() {
                 <tr>
                   <th>Posição</th>
                   <th>Turma</th>
-                  <th>Pontos Modalidades Coletivas</th>
-                  <th>Pontos Modalidades Individuais</th>
-                  <th>Pontos Gincanas</th>
-                  <th>Total</th>
+                  <th>Pontos</th>
                 </tr>
               </thead>
+
               <tbody>
                 {classificacao_geral.length > 0 ? (
                   classificacao_geral.map((item) => (
                     <tr key={item.posicao}>
                       <td>{item.posicao}º</td>
                       <td>{item.turma}</td>
-                      <td>{item.pontos_coletivas}</td>
-                      <td>{item.pontos_individuais}</td>
-                      <td>{item.pontos_gincana}</td>
-                      <td>{item.pontos_coletivas + item.pontos_individuais + item.pontos_gincana}</td>
+                      <td>{item.pontos}</td>
                     </tr>
                   ))
                 ) : (
                   <tr>
-                    <td colSpan="6" className="sem-jogos">Nenhuma pontuação cadastrada.</td>
+                    <td colSpan="3" className="sem-jogos">
+                      Nenhuma pontuação cadastrada.
+                    </td>
                   </tr>
                 )}
               </tbody>
